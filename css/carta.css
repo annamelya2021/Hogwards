@@ -1,0 +1,25 @@
+/* @font-face {
+  font-family: Anna;
+  src: url("/fonts/firma.ttf") format("truetype");
+  /* src: url("/fonts/titulo.ttf") format("truetype"); */
+/* } */
+/* h1 {
+  font-family: Anna;
+} */
+body {
+  background-image: url("../img/fondo.jpg");
+}
+
+@font-face {
+  font-family: "titulo";
+  src: url("../fonts/titulo.ttf");
+}
+
+@font-face {
+  font-family: "firma";
+  src: url("../fonts/firma.ttf");
+}
+
+h1 {
+  font-family: titulo;
+}
